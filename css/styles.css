@@ -1,0 +1,278 @@
+/* line 1, _header.scss */
+header {
+  width: 100%;
+  height: 300px;
+  background-color: transparent;
+  position: relative;
+  background-image: url(https://i.imgur.com/tS7B7KI.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-size: no-repeat;
+  background-attachment: fixed; }
+
+/* line 13, _header.scss */
+#logo {
+  width: 300px;
+  height: 267px;
+  position: absolute;
+  top: 10px;
+  left: 3%; }
+
+/* line 22, _header.scss */
+#logo img {
+  width: 300px;
+  height: auto; }
+
+/* line 2, _buttons.scss */
+#boton {
+  width: 90px;
+  height: 30px;
+  background-color: #029853;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  bottom: 55px;
+  right: 15px;
+  position: fixed;
+  z-index: 501;
+  -webkit-box-shadow: 0 0 10px #000;
+          box-shadow: 0 0 10px #000; }
+
+/* line 15, _buttons.scss */
+#boton:hover {
+  background-color: rgba(2, 152, 83, 0);
+  border: 2px solid #029853; }
+
+/* line 20, _buttons.scss */
+#boton p:hover {
+  color: #029853; }
+
+/* line 24, _buttons.scss */
+#boton p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 550;
+  text-align: center;
+  margin-top: 1.5px;
+  text-shadow: 0 0 5px #000; }
+
+/* line 1, _main.scss */
+main {
+  width: 100%;
+  height: 850px;
+  background-color: #03677c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/* line 14, _main.scss */
+#bloque2 {
+  width: 50%;
+  height: 590px;
+  background-color: #fff;
+  background-image: url(https://i.imgur.com/6z7hEm5.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* line 26, _main.scss */
+#bloque2 a:link, #bloque2 a:visited, #bloque2 a:active {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 31, _main.scss */
+#placa1 {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 200px; }
+
+/* line 38, _main.scss */
+#placa1 h1 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 75px;
+  text-shadow: 3px 3px 7px black; }
+
+/* line 46, _main.scss */
+#placa1 h2 {
+  color: #fff;
+  text-align: center;
+  line-height: 5px;
+  text-align: 3px 3px 7px black; }
+
+/* line 54, _main.scss */
+#placa1 p {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px; }
+
+/* line 64, _main.scss */
+#bloque3 a:link, #bloque3 a:visited, #bloque3 a:active {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 69, _main.scss */
+#placa1 a:hover {
+  color: green;
+  text-decoration: none; }
+
+/* line 76, _main.scss */
+#bloque3 {
+  width: 48%;
+  height: 590px;
+  background-color: #fff;
+  background-image: url(https://i.imgur.com/a1ZQUWN.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* line 88, _main.scss */
+#placa2 {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 200px;
+  padding-top: 29px; }
+
+/* line 98, _main.scss */
+#placa2 h1 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 7px black; }
+
+/* line 106, _main.scss */
+#placa2 h2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 7px black; }
+
+/* line 112, _main.scss */
+#banner {
+  width: 98%;
+  height: 200px;
+  background-color: #fff;
+  background-image: url(https://i.imgur.com/KgXeUwP.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* line 124, _main.scss */
+#banner #abdomen {
+  width: 550px;
+  height: 105px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 47px;
+  margin-left: 0; }
+
+/* line 134, _main.scss */
+#abdomen h1 {
+  font-family: arial;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold; }
+
+/* line 141, _main.scss */
+#abdomen h2 {
+  text-align: center;
+  line-height: 0; }
+
+/* line 1, _social.scss */
+#redes {
+  width: 100px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+/* line 11, _social.scss */
+#face {
+  width: 30px;
+  cursor: pointer; }
+
+/* line 16, _social.scss */
+#face img {
+  width: 30px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s; }
+
+/* line 21, _social.scss */
+#face img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+
+/* line 26, _social.scss */
+#tw {
+  width: 30px;
+  cursor: pointer; }
+
+/* line 31, _social.scss */
+#tw img {
+  width: 30px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s; }
+
+/* line 37, _social.scss */
+#tw img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+
+/* line 41, _social.scss */
+#insta {
+  width: 30px;
+  cursor: pointer; }
+
+/* line 46, _social.scss */
+#insta img {
+  width: 30px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s; }
+
+/* line 52, _social.scss */
+#insta img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+
+/* line 2, _footer.scss */
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  position: relative; }
+
+/* line 8, styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 16, styles.scss */
+body {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  font-family: calibri; }
+
+/*# sourceMappingURL=styles.css.map */

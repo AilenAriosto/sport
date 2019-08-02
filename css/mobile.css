@@ -1,0 +1,83 @@
+
+/* -------------------------------------320Px ------------------------------------------*/
+
+@media screen and (min-width: 320px) and (max-width:479px) {
+  body{
+    background-color: lightblue;
+    max-width: 100vw;
+  }
+
+    header{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .grid{
+      display: block;
+      margin: 0 auto;
+    }
+    h2{
+      font-size: 2em;
+      
+    }
+
+    #bloque2, #bloque3{
+      width: 95%;
+      
+    }
+
+    .skill{
+      padding-top: 3%;
+    }
+
+    section{
+      width:80%;
+    }
+    #bloque2, #bloque3{
+      margin: 0 auto;
+      margin-bottom: 20px;
+          }
+
+} 
+/* ------------------------------------480Px ----------------------------------------------*/
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+  
+    header{
+      width: 100%;
+      height: 100vh;
+      background-color: pink;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+
+    }
+
+    .grid{
+      display: block;
+      margin: 0 auto;
+    }
+    h2{
+      font-size: 2em;
+      
+    }
+
+    .grid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .skill{
+      padding-top: 3%;
+    }
+
+    section{
+      width:80%;
+    }
+    
