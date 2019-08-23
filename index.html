@@ -1,55 +1,332 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>::SPORT::</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/mobile.css">
-	<link rel="shortcut icon" href="http://www.cifyt.com.ar/favicon.ico">
-</head>
-<body>
-	<a href="#"><div id="boton"><p>SUBIR</p></div></a>
-	<header>
-		<div id="logo">
-			<img src="https://i.imgur.com/2MRtPZP.png" alt="logo">
-		</div>
-	</header>
+<html lang="en">
 
-	<main role="main">
-		<div id="bloque2">
-			<div id="placa1">
-				<h1>DESAFIO REGIONAL 2019</h1>
-				<h2>CATEGORIA MEDIANOS HASTA 90 KILOS</h2>
-				<p><a href="#">INSCRIBITE AQUI</a></p>
-			</div>
-		</div>
-		<div id="bloque3">
-			<a href="#">
-				<div id="placa2">
-					<h1>BOLSA</h1>
-					<h2>Lo mejor en tu rutina</h2>
-				</div>
-			</a>
-		</div>
-		<div id="banner">
-			<div id="abdomen">
-				<h1>RUTINA PARA ABDOMINALES</h1>
-				<h2>Nuevos dias:  lunes y miercoles de 19 a 20:30hs.</h2>	
-			</div>
-		</div>
-	</main>
-       <footer>
-    		<div id="redes">
-				<div id="face">
-					<img src="https://i.imgur.com/EeHfWWo.png" alt="logo facebook">
-				</div>
-				<div id="tw">
-					<img src="https://i.imgur.com/kddDPDk.png" alt="logo twitter">
-				</div>
-				<div id="insta">
-					<img src="https://i.imgur.com/5yyOsWB.png" alt="logo instagram">
-				</div>
-			</div>	
-		</footer>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gym</title>
+
+    <!-- Styles Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .nav-brand {
+        width: 80px;
+    }
+
+    .hero {
+        padding: 0;
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+
+textarea:focus, input:focus, input[type]:focus, .form-control:focus {
+    border-color: rgb(6, 161, 27);
+    box-shadow: 0 1px 1px rgba(6, 161, 27, 0.075)inset, 0 0 8px rgba(6, 161, 27, 0.6);
+    outline: 0 none;
+}
+
+.form-control{
+    background-color: #eef3f6;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+</style>
+
+<body>
+
+
+    <!--Header -->
+    <header class="header-area" id="home">
+        <!-- Navbar Area -->
+        <div class="fitness-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="fitnessNav">
+
+                        <!-- Nav brand -->
+                        <a class="nav-brand"><img src="https://i.imgur.com/qsUJ6MD.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <i class="fas fa-angle-up"></i>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#plan">Plan</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+
+                                <!-- Call Button -->
+                                <a href="#" class="fitness-btn menu-btn ml-30">Call: +34 586 778 8892</a>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Hero Area Start -->
+    <div class="hero" style="background-image: url(https://i.imgur.com/9TU1bfu.jpg)">
+        <img>
+    </div>
+    <!-- Hero Area End -->
+
+
+
+    <!-- About Us Area Start -->
+    <div class="about-us-area section-padding-100-0" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h6>Gym</h6>
+                        <h2>About Us</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <!-- About Text -->
+                        <div class="col-12 col-lg-6">
+                            <div class="about-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                                    numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut
+                                    quos molestiae autem, corporis sunt dolorum nisi quisquam!</p>
+                            </div>
+                        </div>
+                        <!-- About Text -->
+                        <div class="col-12 col-lg-6">
+                            <div class="about-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                                    numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut
+                                    quos molestiae autem, corporis sunt dolorum nisi quisquam!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="about-thumb">
+                        <img src="https://i.imgur.com/aw2cktW.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Area End -->
+
+
+
+
+    <!-- Pricing Table Area Start -->
+    <div id="plan" class="fitness-pricing-table-area section-padding-100-0 bg-img bg-overlay bg-fixed"
+        style="background-image: url(img/bg-img/bg-7.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <!-- Single Price Table -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-price-table mb-100">
+                        <img src="https://i.imgur.com/O1sX7Zo.jpg" alt="">
+                        <div class="price-table-content">
+                            <!-- price -->
+                            <h2 class="price">
+                                $50<span>/ Month</span>
+                            </h2>
+                            <h5>Box</h5>
+                            <!-- Price Data -->
+                            <ul class="price-data">
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <!-- btn -->
+                            <a href="#" class="btn fitness-btn mt-30">BUY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Price Table -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-price-table mb-100">
+                        <img src="https://i.imgur.com/xBiF1ff.jpg" alt="">
+                        <div class="price-table-content">
+                            <!-- price -->
+                            <h2 class="price">
+                                $70<span>/ Month</span>
+                            </h2>
+                            <h5>Fitness</h5>
+                            <!-- Price Data -->
+                            <ul class="price-data">
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <!-- btn -->
+                            <a href="#" class="btn fitness-btn mt-30">BUY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Price Table -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-price-table mb-100">
+                        <img src="https://i.imgur.com/QQkhmkm.jpg" alt="">
+                        <div class="price-table-content">
+                            <!-- price -->
+                            <h2 class="price">
+                                $90<span>/ Month</span>
+                            </h2>
+                            <h5>Crossfit</h5>
+                            <!-- Price Data -->
+                            <ul class="price-data">
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <!-- btn -->
+                            <a href="#" class="btn fitness-btn mt-30">BUY</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Table Area End -->
+
+
+    <!-- ------------------------------Contacto------------------------------ -->
+    <form id="contact">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact-title">
+                        <h3>Contacto</h3>
+                    </div>
+                </div>
+            </div>
+        </div><!--Container-->
+
+        <div class="container">
+            <div class="form-row">
+                <div class="form-group col-12">
+                    
+                    <input type="email" class="form-control" id="email4" placeholder="Email">
+                </div>
+                <div class="form-group col-12">
+                    
+                    <input type="text" class="form-control" id="name4" placeholder="Nombre">
+                </div>
+            </div>
+            <div class="form-group">
+               
+                <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+            </div>
+            <div class="form-group">
+                
+                <textarea class="form-control" id="area" rows="3" placeholder="Mensaje"></textarea>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-5">
+                    <button type="submit" class="btn fitness-btn btn-2  ">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- ------------------------------Contacto------------------------------ -->
+
+
+
+    <!-- ------------------------------Footer------------------------------ -->
+    <footer class="bg-dark mt-5">
+
+        <div class="main-footer-area">
+            <div class="container py-2">
+                <div class="row footer-widget-area">
+
+                    <div class="single-contact  col-3 offset-2">
+                        <span>Direccion:</span>
+                        <p>123 Lorem, ipsum dolor. <br>Lorem, CA 12354</p>
+                    </div>
+
+                    <div class="single-contact col-3 ">
+                        <span>Celular:</span>
+                        <p>+54 123 4567 8901</p>
+                    </div>
+
+                    <div class="single-contact col-3 ">
+                        <span>Email:</span>
+                        <p>mail@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ------------------------------Footer------------------------------ -->
+
+
+
+
+    <!-- All Javascript Script -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- Font-Awesome -->
+    <script src="js/all.js"></script>
+
+</body>
+
 </html>
