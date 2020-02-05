@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+*, ::after, ::before{
+  box-sizing:border-box
+}
+
+body {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #101214;
+}
+
+p {
+  color: #838383;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+/* :: 4.0 Header Area CSS */
+.header-area {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  background-color: #343A40;
+}
+
+
+
+
+/* :: 3.8.0 Fitness Button */
+.fitness-btn {
+  position: relative;
+  z-index: 9;
+  display: inline-block;
+  min-width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  padding: 0 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 3px solid #38b143;
+  color: #101214;
+  font-weight: 700;
+  border: none;
+  line-height: 45px;
+  background-color: #38b143;
+}
+
+.fitness-btn:hover,
+.fitness-btn:focus {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #38b143;
+}
+
+.btn{
+  text-align: center;
+}
+
+/* < ------------------------------Header------------------------------  */
+
+.header-area>nav>.navbar_links>ul>.nav-item:hover{
+  background-color: #38b143;
+  color: #101214;
+}
+.header-area>nav>.navbar_links>ul>.nav-item:active{
+  background-color: #38b143;
+  color: #101214;
+}
+nav{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-right: 30px;
+  height: 90px;
+}
+nav>.navbar_links{
+  display: flex;
+  justify-self: flex-end;
+}
+nav>.navbar_links>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav>.navbar_links>ul>li{
+  padding: 20px 0;
+}
+nav>.navbar_links>ul>li>a{
+  color: white;
+  display:block;
+  padding:.5rem 1rem;
+  text-decoration: none;
+}
+
+/* < ------------------------------Header------------------------------  */
+
+/* < ------------------------------Hero------------------------------  */
+
+.hero {
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* < ------------------------------Hero------------------------------  */
+
+/* ------------------------------About------------------------------ */
+.single-add-area img {
+  width: 100%;
+}
+
+.about-us-area {
+  position: relative;
+  margin-bottom: -50px;
+  z-index: 100;
+  padding-top: 3rem;
+  padding-right: 100px;
+  padding-left: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.about-thumb {
+  position: relative;
+  margin-top: -50px;
+}
+/* ------------------------------About------------------------------ */
+/* ------------------------------Pricing------------------------------ */
+
+.pricing {
+  background-color: #2A2F45 ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding: 30px 20px;
+  width: 100%;
+}
+.single-price-table {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.single-price-table .price-table-content {
+  padding: 40px;
+}
+
+.single-price-table .price-table-content .price {
+  font-size: 36px;
+  font-weight: 600;
+  color: #38b143;
+  line-height: 1;
+}
+
+.single-price-table .price-table-content .price span {
+  font-size: 14px;
+  font-style: italic;
+  color: #838383;
+  font-weight: 400;
+}
+
+.single-price-table .price-table-content h5 {
+  font-size: 22px;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.single-price-table .price-table-content .price-data li {
+  color: #838383;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.single-price-table .price-table-content .price-data li:last-child {
+  margin-bottom: 0;
+}
+
+.single-price-table .price-table-content .price-data li i {
+  color: #38b143;
+  font-size: 8px;
+  margin-right: 15px;
+}
+
+.service-page .single-price-table {
+  background-color: #f0f2f8;
+  border: 3px solid transparent;
+}
+
+.service-page .single-price-table .price-table-content h5 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.service-page .single-price-table:hover,
+.service-page .single-price-table:focus {
+  border: 3px solid #38b143;
+  -webkit-box-shadow: 0 5px 70px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 70px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+
+}
+.pricing_button{
+  text-align: center;
+}
+.pricing_button>.btn{
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+/* ------------------------------Pricing------------------------------ */
+/*------------------------------Footer------------------------------*/
+
+footer{
+  background-color:#343A40 ;
+  padding-right: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer>div span{
+  color: #38b143;
+}
+
+footer>div p{
+  color: #bebebe;
+}
+
+/*------------------------------Footer------------------------------*/
+
+
+
+
+/* ------------------------------Contacto------------------------------*/
+
+form{
+  display:grid;
+  grid-template-columns: 1fr;
+  padding: 40px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-control {
+  background-color: #eef3f6;
+  font-size: 12px;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding:.375rem .75rem;
+  height: calc(1.5em + .75rem + 2px);
+  color:#495057;
+  border: 1px solid #ced4da;
+}
+
+form>.form_form-control>.form-control{
+  margin: 10px 0;
+}
+
+.form_form-control{
+  margin-bottom: 20px;
+}
+
+form>button{
+  width: 50%;
+  margin: 0 auto;
+}
+
+textarea:focus,
+input:focus,
+input[type]:focus,
+.form-control:focus {
+  border-color: #06a11b;
+  -webkit-box-shadow: 0 1px 1px rgba(6, 161, 27, 0.075) inset, 0 0 8px rgba(6, 161, 27, 0.6);
+          box-shadow: 0 1px 1px rgba(6, 161, 27, 0.075) inset, 0 0 8px rgba(6, 161, 27, 0.6);
+  outline: 0 none;
+}
+
+/* ------------------------------Contacto------------------------------*/
+
+
+
+@media(max-width:509px){
+  footer{
+    grid-template-columns: 1fr;
+
+  }
+  .pricing{
+    grid-template-columns: 1fr;
+  }
+  .about-us-area{
+    grid-template-columns: 1fr;
+  }
+  form{
+    width: auto;
+  }
+  .about-us-area{
+    padding-left:20px;
+    padding-right: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .section-heading h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .fitness-btn.menu-btn {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fitness-btn.menu-btn {
+    margin-top: 30px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .breakpoint-on .classy-menu {
+    background-color: #101214;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .breakpoint-on .classy-menu {
+    background-color: #101214;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-thumb {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-thumb {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about--thumb {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about--thumb {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-btn-group .fitness-btn {
+    margin: 10px;
+  }
+}
+
+@media(min-width: 510px) and (max-width:900px){
+  .pricing{
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-us-area{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area {
+    padding-bottom: 100px;
+  }
+  
+} 
+
+
+@media (min-width: 310px) and (max-width: 1020px) {
+  .about-thumb{
+    display: none;
+  }
+  #about{
+    margin-bottom: 40px;
+  }
+  .price-table-content{
+    padding-top: 30px;
+  }
+  .nav{
+    display:block;
+  }
+} 
+

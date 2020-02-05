@@ -8,11 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Gym</title>
 
-    <!-- ---------------Styles Bootstrap------------- -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
     <!-- ---------------Fonts------------- -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
 
@@ -20,27 +15,21 @@
     <link rel="icon" href="https://i.imgur.com/qsUJ6MD.png">
 
     <!-- ---------------Custom------------ -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 
-<body data-spy="scroll" data-target="#NavBar" data-offset="150">
-
-
-    <header class="bg-dark header-area">
-        <nav class="navbar navbar-expand-lg navbar-dark" id="NavBar">
-
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-
-            <div class="collapse navbar-collapse classynav nav " id="navbarTogglerDemo01">
-                <a class="navbar-brand" ><img src="https://i.imgur.com/qsUJ6MD.png" alt="" style="width: 80px;" class="pt-1"></a>
-                <ul class="navbar-nav mt-2 mt-lg-0 nav nav-pills ml-auto ">
-                    <li class="nav-item active">
+<body>
+    <header class="header-area">
+        <nav>
+            <div class="navbar_logo">
+                <a class="navbar-brand" >
+                    <img src="https://i.imgur.com/qsUJ6MD.png" alt="Logo" style="width: 80px;" >
+                </a>
+            </div>
+            <div class="navbar_links">
+                <ul>
+                    <li class="nav-item">
                         <a class="nav-link" href="#home">Home </a>
                     </li>
                     <li class="nav-item">
@@ -53,250 +42,176 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-
             </div>
         </nav>
     </header>
 
+    <!-- ------------------------------Hero------------------------------ -->
+    <div id="home" class="hero" style="background-image: url(https://i.imgur.com/9TU1bfu.jpg)"></div>
+    <!-- ------------------------------Hero------------------------------ -->
 
-  
+    <!-- ------------------------------About------------------------------ -->
+    <section class="about-us-area" id="about">
+        <div class="section-heading">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut
+                quos molestiae autem, corporis sunt dolorum nisi quisquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut</p>
+        </div>
+        <div class="about-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut
+                quos molestiae autem, corporis sunt dolorum nisi quisquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut</p>
+    
+        </div>
+        <div class="about-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut
+                quos molestiae autem, corporis sunt dolorum nisi quisquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
+                numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut</p>
+        </div>
+        <div class="about-thumb">
+            <img src="https://i.imgur.com/aw2cktW.png" alt="foto sobre nosotros">
+        </div>
+    </section>
+    <!-- ------------------------------About------------------------------ -->
 
 
-    <!-- Hero Area Start -->
-    <div id="home" class="hero" style="background-image: url(https://i.imgur.com/9TU1bfu.jpg)">
-        <img>
-    </div>
-    <!-- Hero Area End -->
 
-
-
-    <!-- About Us Area Start -->
-    <div class="about-us-area pt-5" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading">
-                        <h2>About Us</h2>
+    <!-- ------------------------------Pricing------------------------------ -->
+    <section id="plan" class="pricing">
+        <!-- Single Price Table -->
+            <div class="price-table-content">
+                <!-- price -->
+                <div class="single-price-table" style="width: 100%;">
+                    <img src="https://i.imgur.com/O1sX7Zo.jpg" class="card-img-top" alt="croosfit">
+                    <div class="card-body price-table-content">
+                        <h2 class="card-title price">$50<span>/ Month</span></h2>
+                        <p>
+                            <h5>Croosfit</h5>
+                        </p>
+                        <ul class="list-group list-group-flush price-data">
+                            <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
+                            </li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
+                            </li>
+                        </ul>
                     </div>
+                    <div class="pricing_button">
+                        <!-- btn -->
+                        <a href="#" class="btn fitness-btn">BUY</a>
+                    </div>
+
                 </div>
             </div>
+        
 
-            <div class="row">
-                <div class="col-12 col-lg-8">
-                    <div class="row">
-                        <!-- About Text -->
-                        <div class="col-12 col-lg-6">
-                            <div class="about-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
-                                    numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut
-                                    quos molestiae autem, corporis sunt dolorum nisi quisquam!</p>
-                            </div>
-                        </div>
-                        <!-- About Text -->
-                        <div class="col-12 col-lg-6">
-                            <div class="about-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis architecto
-                                    numquam quos voluptatibus iure doloremque error officia qui! Dolorem recusandae aut
-                                    quos molestiae autem, corporis sunt dolorum nisi quisquam!</p>
-                            </div>
-                        </div>
-
+        <!-- Single Price Table -->
+        <div>
+            <div class="price-table-content">
+                <!-- price -->
+                <div class="single-price-table " style="width: 100%;">
+                    <img src="https://i.imgur.com/xBiF1ff.jpg" class="card-img-top" alt="Croosfit">
+                    <div class="card-body price-table-content">
+                        <h2 class="card-title price">$50<span>/ Month</span></h2>
+                        <p>
+                            <h5>Croosfit</h5>
+                        </p>
+                        <ul class="list-group list-group-flush price-data">
+                            <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
+                            </li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
+                            </li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="about-thumb">
-                        <img src="https://i.imgur.com/aw2cktW.png" alt="">
+
+                    <div class="pricing_button">
+                        <!-- btn -->
+                        <a href="#" class="btn fitness-btn mt-30  mb-2">BUY</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About Us Area End -->
+        <!-- Single Price Table -->
+        <div>
+            <div class="price-table-content">
+                <!-- price -->
+                <div class="single-price-table" style="width: 100%;">
+                    <img src="https://i.imgur.com/QQkhmkm.jpg" class="card-img-top" alt="Croosfit">
+                    <div class="card-body price-table-content">
+                        <h2 class="card-title price">$50<span>/ Month</span></h2>
+                        <p>
+                            <h5>Croosfit</h5>
+                        </p>
+                        <ul class="list-group list-group-flush price-data">
+                            <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
+                                amet.</li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
+                                amet.</li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
+                                amet.</li>
+                        </ul>
+                    </div>
 
-
-
-
-    <!-- Pricing Table Area Start -->
-    <div id="plan" class="fitness-pricing-table-area py-5 bg-img bg-overlay bg-fixed" style="background-color: #2A2F45">
-        <div class="container">
-            <div class="row justify-content-center">
-
-                <!-- Single Price Table -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="price-table-content">
-                        <!-- price -->
-                        <div class="single-price-table" style="width: 100%;">
-                            <img src="https://i.imgur.com/O1sX7Zo.jpg" class="card-img-top" alt="...">
-                            <div class="card-body price-table-content">
-                                <h2 class="card-title price">$50<span>/ Month</span></h2>
-                                <p>
-                                    <h5>Croosfit</h5>
-                                </p>
-                                <ul class="list-group list-group-flush price-data">
-                                    <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="text-center">
-                                <!-- btn -->
-                                <a href="#" class="btn fitness-btn mt-30  mb-2">BUY</a>
-                            </div>
-
-                        </div>
+                    <div class="pricing_button">
+                        <!-- btn -->
+                        <a href="#" class="btn fitness-btn mt-30  mb-2">BUY</a>
                     </div>
                 </div>
-
-                <!-- Single Price Table -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="price-table-content">
-                        <!-- price -->
-                        <div class="single-price-table " style="width: 100%;">
-                            <img src="https://i.imgur.com/xBiF1ff.jpg" class="card-img-top" alt="...">
-                            <div class="card-body price-table-content">
-                                <h2 class="card-title price">$50<span>/ Month</span></h2>
-                                <p>
-                                    <h5>Croosfit</h5>
-                                </p>
-                                <ul class="list-group list-group-flush price-data">
-                                    <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit amet.
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="text-center">
-                                <!-- btn -->
-                                <a href="#" class="btn fitness-btn mt-30  mb-2">BUY</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Price Table -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="price-table-content">
-                        <!-- price -->
-                        <div class="single-price-table" style="width: 100%;">
-                            <img src="https://i.imgur.com/QQkhmkm.jpg" class="card-img-top" alt="...">
-                            <div class="card-body price-table-content">
-                                <h2 class="card-title price">$50<span>/ Month</span></h2>
-                                <p>
-                                    <h5>Croosfit</h5>
-                                </p>
-                                <ul class="list-group list-group-flush price-data">
-                                    <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
-                                        amet.</li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
-                                        amet.</li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
-                                        amet.</li>
-                                </ul>
-                            </div>
-
-                            <div class="text-center">
-                                <!-- btn -->
-                                <a href="#" class="btn fitness-btn mt-30  mb-2">BUY</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Price Table -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="price-table-content">
-                        <!-- price -->
-                        <div class="single-price-table" style="width: 100%;">
-                            <img src="https://i.imgur.com/QQkhmkm.jpg" class="card-img-top" alt="...">
-                            <div class="card-body price-table-content">
-                                <h2 class="card-title price">$50<span>/ Month</span></h2>
-                                <p>
-                                    <h5>Croosfit</h5>
-                                </p>
-                                <ul class="list-group list-group-flush price-data">
-                                    <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
-                                        amet.</li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
-                                        amet.</li>
-                                    <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
-                                        amet.</li>
-                                </ul>
-                            </div>
-
-                            <div class="text-center">
-                                <!-- btn -->
-                                <a href="#" class="btn fitness-btn mt-30  mb-2">BUY</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
             </div>
         </div>
-    </div>
-    <!-- Pricing Table Area End -->
+
+        <!-- Single Price Table -->
+        <div>
+            <div class="price-table-content">
+                <!-- price -->
+                <div class="single-price-table" style="width: 100%;">
+                    <img src="https://i.imgur.com/QQkhmkm.jpg" class="card-img-top" alt="Croosfit">
+                    <div class="card-body price-table-content">
+                        <h2 class="card-title price">$50<span>/ Month</span></h2>
+                        <p>
+                            <h5>Croosfit</h5>
+                        </p>
+                        <ul class="list-group list-group-flush price-data">
+                            <li><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
+                                amet.</li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
+                                amet.</li>
+                            <li> <i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor sit
+                                amet.</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing_button">
+                        <!-- btn -->
+                        <a href="#" class="btn fitness-btn mt-30  mb-2">BUY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------Pricing------------------------------ -->
 
 
 
     <!-- ------------------------------Contacto------------------------------ -->
     <form id="contact">
-        <div class="container pt-4">
-            <div class="row">
-                <div class="col-6 offset-3 text-center">
-                    <div class="contact-title">
-                        <h3>Contacto</h3>
-                    </div>
-                </div>
-            </div>
+        <h3>Contacto</h3>
+        <div class="form_form-control">
+            <input type="email" class="form-control" id="email4" placeholder="Email">
+            <input type="text" class="form-control" id="name4" placeholder="Nombre">
+            <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+            <textarea class="form-control" id="area" rows="3" placeholder="Mensaje"></textarea>
         </div>
-        <!--Container-->
-
-        <div class="container">
-            <div class="form-row">
-                <div class="form-group col -8 offset-xs-2 col-md-6 offset-md-3 ">
-
-                    <input type="email" class="form-control" id="email4" placeholder="Email">
-                </div>
-            </div>
-
-
-            <div class="form-row">
-                <div class="form-group col -8 offset-xs-2 col-md-6 offset-md-3">
-
-                    <input type="text" class="form-control" id="name4" placeholder="Nombre">
-                </div>
-            </div>
-
-
-
-            <div class="form-row">
-                <div class="form-group col -8 offset-xs-2 col-md-6 offset-md-3">
-
-                    <input type="text" class="form-control" id="asunto" placeholder="Asunto">
-                </div>
-            </div>
-
-
-            <div class="form-row">
-
-                <div class="form-group col -8 offset-xs-2 col-md-6 offset-md-3">
-
-                    <textarea class="form-control" id="area" rows="3" placeholder="Mensaje"></textarea>
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="form-group col -8 offset-xs-2 col-md-6 offset-md-3">
-                    <button type="submit" class="btn fitness-btn btn-2  ">Enviar</button>
-                </div>
-            </div>
-        </div>
+        <button type="submit" class="btn fitness-btn btn-2  ">Enviar</button>
     </form>
 
 
@@ -305,53 +220,23 @@
 
 
     <!-- ------------------------------Footer------------------------------ -->
-    <footer class="bg-dark mt-5 pr-3">
-
-        <div class="main-footer-area">
-            <div class="container py-2">
-                <div class="row footer-widget-area text-center ">
-
-                    <div class="single-contact  col-12 col-lg pb-1 ">
-                        <span>Direccion:</span>
-                        <p>123 Lorem, ipsum dolor. <br>Lorem, CA 12354</p>
-                    </div>
-
-                    <div class="single-contact col-12 col-lg pb-1   ">
-                        <span>Celular:</span>
-                        <p>+54 4567 8901</p>
-                    </div>
-
-                    <div class="single-contact col-12 col-lg pb-1   ">
-                        <span>Email:</span>
-                        <p>mail@gmail.com</p>
-                    </div>
-                </div>
-            </div>
+    <footer>
+        <div>
+            <span>Direccion:</span>
+            <p>123 Lorem, ipsum dolor. <br>Lorem, CA 12354</p>
         </div>
-
+        <div>
+            <span>Celular:</span>
+            <p>+54 4567 8901</p>
+        </div>
+        <div>
+            <span>Email:</span>
+            <p>mail@gmail.com</p>
+        </div>
     </footer>
     <!-- ------------------------------Footer------------------------------ -->
 
 
-
-
-    <!-- All Javascript Script -->
-
-
-    <!-- Bootstrap js -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-
-    <!-- Active js -->
-    <script src="js/active.js"></script>
 
 </body>
 
